@@ -1,0 +1,79 @@
+:root
+{
+    --primary-color:#EE4D2D;
+    --white-color: #FFF;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+
+    --header__height:120px;
+    --navbar__height:34px;
+    --search__height:calc(var(--header__height) - var(--navbar__height));
+}
+*
+{
+    box-sizing: inherit;
+}
+html
+{
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+}
+.grid
+{
+    width:1200px;
+    max-width: 100%;
+    margin:0 auto;
+}
+.gird_-full-width
+{
+    width:100%;
+}
+.grid__row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -5px;
+}
+.grid__column
+{
+    margin:0 -5px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.grid__column-2
+{
+    margin:0 -5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid__row-2
+{
+    width:10%;
+    padding:0 5px;
+    margin-bottom: 10px;
+}
+.grid__row-2-5
+{
+    width:25%;
+    margin-bottom: 70px;
+}
+.grid__home-cup
+{
+    transition: transform linear 0.1s;
+    will-change: transform;
+    position:relative;
+    overflow: visible;
+    display:block;
+    padding:10px 5px;
+    z-index:2;
+}
