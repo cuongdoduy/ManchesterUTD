@@ -44,6 +44,19 @@
     }
     .sponsorer {
       padding:0;
+    
+    }
+    .champion {
+        padding: 50px 40px;
+        background-color: black;
+    }
+    .champion .grid__column-2 .grid__row-2-5
+    {
+        width: 40%;
+        margin-bottom: 73px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
     }
 }
 /* Mobile */
@@ -150,6 +163,30 @@
         padding-top: 4px;
         padding-left: 4px;
     }   
+    .Caption {
+        font-size: 2.5rem;
+        word-spacing: 0.8rem;
+        line-height: 3rem;
+        text-transform: uppercase;
+        margin: 40px 12px;
+        text-align: justify;
+    }
+    .champion .grid__column-2 .grid__row-2-5
+    {
+        width: 50%;
+        margin-bottom: 100px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .champion {
+        padding: 50px 10px;
+        background-color: black;
+    }
+    .champion__text>span:nth-child(1)
+    {
+        line-height:2.6rem;
+    }
     
 
 }
