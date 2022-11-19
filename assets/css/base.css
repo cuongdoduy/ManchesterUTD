@@ -55,7 +55,6 @@ body
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .grid__row-2
 {
     width:10%;
@@ -76,4 +75,20 @@ body
     display:block;
     padding:10px 5px;
     z-index:2;
+}
+.grid__column-3
+{
+    margin:0 -5px;
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+    justify-items: center;
+}
+.grid__row-2-5
+{
+    width:15%;
+    margin-bottom: 70px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }

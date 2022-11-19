@@ -1,0 +1,155 @@
+/* PC */
+@media(min-width:1025px){
+}
+/* Tablet */
+@media(min-width: 768px) and (max-width: 1024px) {
+    #news
+    {
+     padding:0;  
+    }
+    .container
+    {
+        justify-content: space-around;
+    }
+    .container .news__descriptions
+    {
+        width:30%;
+        margin:0 5px;
+    }
+    #ticket
+    {
+        padding:0;
+    }
+    .ticket__description
+    {
+        justify-content: space-around;
+    }
+    .ticket__description-match
+    {
+        padding:16px 5px;
+    }
+    #player
+    {
+        padding: 10px 40px 10px;
+        
+        width: 100%;
+    }
+    .grid__column
+    {
+    }
+    .grid__row-2
+    {
+        margin-right:8px;
+        width: 15%;
+    }
+    .sponsorer {
+      padding:0;
+    }
+}
+/* Mobile */
+@media(max-width:739px){
+    #header
+    {
+       overflow: hidden;
+    }
+    #nav
+    {
+        width:85%;
+        padding:0;
+    }
+    ul#nav>li:nth-child(0),ul#nav>li:nth-child(5)
+    {
+        display:none;
+    }
+    #news
+    {
+        padding:0;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: auto;
+        width: 75%;
+    }
+    .container .news__descriptions
+    {
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .ticket__description-match
+    {
+        width:100%;
+    }
+    .ticket__description {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+    #ticket {
+        margin-top: 60px;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom: 100px;
+        padding-top: 60px;
+        background-color: #000;
+    }
+    #player
+    {
+        padding:0;
+    }
+    .grid__column
+    {
+        margin:0;
+    }
+    .grid__row-2
+    {
+        width:25%;
+    }
+    .sponsorer
+    {
+        padding:0;
+    }
+    .grid__row-2-5
+    {
+        width:33%;
+    }
+    .follow
+    {
+        padding:10px 5px;
+    }
+    .Follow_Title {
+        color: white;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    .follow__icon-link {
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: #fff;
+    }
+    .header__logo-link
+    {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 4px 2px;
+    }
+    .header__logo img 
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .header__logo {
+        width:15%;
+        align-items: center;
+        justify-items: center;
+        padding-top: 4px;
+        padding-left: 4px;
+    }   
+    
+
+}
