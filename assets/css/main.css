@@ -3,11 +3,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-transform: translateZ(0);
 }
 #header
 {
     height:60px;
-    width:100%;
+    max-width: 100%;
+    width: 100%;
     background-color: black;
     position: fixed;
     top:0;
