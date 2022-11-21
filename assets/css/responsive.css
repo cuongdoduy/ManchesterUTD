@@ -63,14 +63,14 @@
 @media(max-width:739px){
     #header
     {
-       overflow: hidden;
+       padding:0 20px;
     }
     #nav
     {
         width:85%;
-        padding:0;
+        padding:0 10px;
     }
-    ul#nav>li:nth-child(0),ul#nav>li:nth-child(5)
+    ul#nav>li:nth-child(2),ul#nav>li:nth-child(3),ul#nav>li:nth-child(4)
     {
         display:none;
     }
@@ -116,11 +116,12 @@
     }
     .grid__column
     {
-        margin:0;
+        margin: 0;
+        padding: 0px 32px;
     }
     .grid__row-2
     {
-        width:25%;
+        width:33%;
     }
     .sponsorer
     {
@@ -132,7 +133,7 @@
     }
     .follow
     {
-        padding:10px 5px;
+        padding:10px 20px;
     }
     .Follow_Title {
         color: white;
@@ -140,9 +141,7 @@
         text-transform: uppercase;
     }
     .follow__icon-link {
-        text-decoration: none;
         font-size: 2.5rem;
-        color: #fff;
     }
     .header__logo-link
     {
@@ -187,6 +186,23 @@
     {
         line-height:2.6rem;
     }
-    
-
+    .content {
+        padding: 5px 32px;
+    }
+    .Sharing {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 32px;
+        margin-top:0px;
+    }       
+    .Sharing>div.follow
+    {
+        padding:10px 0;
+    }
+    #main-2
+    {
+        padding:0;
+        display:block;
+    }
 }
