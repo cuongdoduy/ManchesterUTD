@@ -1,6 +1,6 @@
 @import url("base.css");
 @import url("footer.css");
-@import url("/assets/fontawesome-free-6.2.0-web/css/all.css");
+@import url("header.css");
 #main
 {
     box-sizing: border-box;
