@@ -13,7 +13,6 @@
     }
     .container .news__descriptions
     {
-        width:30%;
         margin:0 5px;
     }
     #ticket
@@ -79,8 +78,7 @@
         padding:0;
     }
     .container {
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: 100%;
         position: relative;
         margin: auto;
         width: 75%;
@@ -96,9 +94,9 @@
     }
     .ticket__description {
         padding: 10px 0px;
-        display: flex;
+        
         justify-content: space-between;
-        flex-direction: column;
+        grid-template-columns: 100%;
         margin: auto;
         width: 80%;
     }
